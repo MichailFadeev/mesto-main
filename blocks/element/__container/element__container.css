@@ -1,0 +1,10 @@
+.element__container {
+    background-color: white;
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 282px;
+
+
+}

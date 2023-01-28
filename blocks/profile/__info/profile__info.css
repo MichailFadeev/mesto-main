@@ -1,0 +1,25 @@
+.profile__info {
+    display: grid;
+    grid-template-columns: 294px 24px;
+    column-gap: 19px;
+    row-gap: 9px;
+    grid-template-areas:
+        "a c"
+        "b b";
+
+    margin-right: calc(20vw - 41px);
+
+}
+
+@media (max-width: 685px) {
+    .profile__info {
+        grid-template-columns: 190px 24px;
+        column-gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile__info {
+        margin: 0;
+    }
+}

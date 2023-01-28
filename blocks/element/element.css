@@ -1,0 +1,16 @@
+.element {
+    max-height: 361px;
+
+
+    overflow: hidden;
+    border-radius: 10px;
+
+
+    font-size: 0;
+}
+
+@media (max-width:480px) {
+    .element {
+        margin: auto;
+    }
+}

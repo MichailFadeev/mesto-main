@@ -1,0 +1,27 @@
+.profile__name {
+    color: white;
+    grid-area: a;
+    display: flex;
+    align-items: flex-end;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+@media (max-width: 685px) {
+    .profile__name {
+
+        font-size: 27px;
+        font-weight: 500;
+        line-height: 33px;
+        letter-spacing: 0em;
+
+
+    }
+}
