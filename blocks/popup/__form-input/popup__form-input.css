@@ -1,6 +1,6 @@
 .popup__form-input {
     border-style: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
     
     display: block;
     width: 358px;
@@ -12,10 +12,21 @@
 @media (max-width:550px) {
     .popup__form-input {
         width: 238px;
+       
     }
 
 }
 
 .popup__form-input:last-of-type {
     margin-bottom: 48px;
+}
+
+.popup__form-text {
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }

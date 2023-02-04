@@ -10,3 +10,6 @@
         - Медиа-запросы для разноразмерных экранов
     4)Файловая структура БЭМ
     5)JavaScript
+
+
+    Github pages - https://michailfadeev.github.io/mesto-main/index.html

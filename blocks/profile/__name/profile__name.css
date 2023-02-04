@@ -1,8 +1,8 @@
 .profile__name {
     color: white;
     grid-area: a;
-    display: flex;
-    align-items: flex-end;
+    
+    
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
@@ -23,5 +23,13 @@
         letter-spacing: 0em;
 
 
+    }
+}
+
+@media (max-width: 480px) {
+    .profile__name {
+        margin: 0;
+        
+    
     }
 }
