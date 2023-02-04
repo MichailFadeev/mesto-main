@@ -13,16 +13,10 @@
 
 @media (max-width: 580px) {
     .profile__add-button {
-        display: block;
-        margin: 36px auto 36px;
-
-    }
-}
-
-@media (max-width: 580px) {
-    .profile__add-button {
         width: 280px;
+        display: block;
         margin: 31px auto 36px;
+        background-image: url(../../../images/plus320px.svg);
     }
 }
 

@@ -11,21 +11,27 @@
 
 }
 
-@media (max-width: 885px) {
+@media (max-width: 900px) {
     .profile__info {
         margin-right: 150px;
     }
 }
 
-@media (max-width: 790px) {
+@media (max-width: 805px) {
     .profile__info {
         margin-right: 100px;
     }
 }
 
-@media (max-width: 740px) {
+@media (max-width: 755px) {
     .profile__info {
         margin-right: 50px;
+    }
+}
+
+@media (max-width: 705px) {
+    .profile__info {
+        margin-right: 20px;
     }
 }
 
@@ -39,7 +45,9 @@
 @media (max-width: 580px) {
     .profile__info {
         margin-left: 70px;
-        column-gap: 2px;
+        column-gap: 5px;
+        
+
         
     }
 }
