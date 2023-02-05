@@ -12,13 +12,14 @@
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 0em;
+    
 }
 
 @media (max-width: 550px) {
     .popup__form-save {
         width: 238px;
         height: 46px;
-        margin: 0 22px 37px;
+        margin: 0 22px 25px;
         font-size: 14px;
         line-height: 17px;
     }

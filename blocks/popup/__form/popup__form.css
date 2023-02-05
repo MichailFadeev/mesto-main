@@ -1,0 +1,9 @@
+.popup__form {
+    max-height: 215px;
+}
+
+@media (max-width: 550px) {
+    .popup__form {
+        max-height: 190px;
+    }
+}

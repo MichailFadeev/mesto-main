@@ -1,6 +1,7 @@
 .popup__form-close {
-   margin-bottom: 370px;
-    
+   position: relative;
+    bottom: 360px;
+    left: 437px;
     background-image: url(../../../images/Close-icon.svg);
     background-size: cover;
     width: 32px;
@@ -8,6 +9,7 @@
     border-style: none;
     background-color: rgba(42, 44, 47, .1);
     padding: 0;
+    
 
 }
 
@@ -15,7 +17,8 @@
     .popup__form-close {
         width: 20px;
         height: 20px;
-        
+        bottom: 365px;
+        left: 261px;
     }
 }
 
@@ -23,3 +26,4 @@
     opacity: .6;
     cursor: pointer;
 }
+
